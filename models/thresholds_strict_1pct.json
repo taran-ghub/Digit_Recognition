@@ -1,0 +1,7 @@
+{
+  "classifier": 1.0,
+  "validator": 0.5,
+  "validation_digit_retention": 0.2827,
+  "validation_negative_false_accept_rate": 0.0026,
+  "target_false_accept_rate": 0.01
+}

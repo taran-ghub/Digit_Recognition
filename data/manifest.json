@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "mnist": "official 60000 train -> 50000 train + 10000 validation; official 10000 test",
+  "emnist": "letters; official train -> 90/10 split; official test untouched",
+  "negative_mix": "80% letters + 20% procedural negatives where enough letters available",
+  "preprocessing": "border polarity, tight crop, fit 20x20, pad 28x28, divide by255",
+  "synthetic_negative_limitation": "Different seeds but same shape families across splits; not unseen-family validation.",
+  "local_handwriting": "Not collected; report separately when available."
+}

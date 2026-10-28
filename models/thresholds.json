@@ -1,0 +1,11 @@
+{
+  "classifier": 0.83,
+  "validator": 0.84,
+  "validation_digit_retention": 0.9129,
+  "validation_negative_false_accept_rate": 0.0499,
+  "target_false_accept_rate": 0.05,
+  "character": 0.9500000000000001,
+  "character_validation_digit_retention": 0.9679,
+  "character_validation_letter_false_accept_rate": 0.047996794871794875,
+  "character_target_letter_false_accept_rate": 0.05
+}

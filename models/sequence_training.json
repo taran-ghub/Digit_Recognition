@@ -1,0 +1,97 @@
+{
+  "architecture": "CNN\u2013BiLSTM\u2013CTC, 10 digits plus CTC blank",
+  "seed": 2026,
+  "epochs_requested": 12,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 14.291203276316326,
+      "exact_string_accuracy": 0.054375,
+      "character_error_rate": 0.5530546623794212,
+      "samples": 1600
+    },
+    {
+      "epoch": 2,
+      "loss": 4.155642611450619,
+      "exact_string_accuracy": 0.62125,
+      "character_error_rate": 0.08861193688543334,
+      "samples": 1600
+    },
+    {
+      "epoch": 3,
+      "loss": 1.7520451347033184,
+      "exact_string_accuracy": 0.749375,
+      "character_error_rate": 0.05294590559320087,
+      "samples": 1600
+    },
+    {
+      "epoch": 4,
+      "loss": 1.2584604705704583,
+      "exact_string_accuracy": 0.795625,
+      "character_error_rate": 0.04312823461759632,
+      "samples": 1600
+    },
+    {
+      "epoch": 5,
+      "loss": 1.018378161854214,
+      "exact_string_accuracy": 0.846875,
+      "character_error_rate": 0.029355094639011675,
+      "samples": 1600
+    },
+    {
+      "epoch": 6,
+      "loss": 0.8770832660463121,
+      "exact_string_accuracy": 0.878125,
+      "character_error_rate": 0.02330316742081448,
+      "samples": 1600
+    },
+    {
+      "epoch": 7,
+      "loss": 0.7532541826036241,
+      "exact_string_accuracy": 0.84125,
+      "character_error_rate": 0.03062037564029596,
+      "samples": 1600
+    },
+    {
+      "epoch": 8,
+      "loss": 0.6902879811657799,
+      "exact_string_accuracy": 0.8825,
+      "character_error_rate": 0.02283978397839784,
+      "samples": 1600
+    },
+    {
+      "epoch": 9,
+      "loss": 0.6251940619283253,
+      "exact_string_accuracy": 0.90125,
+      "character_error_rate": 0.0184,
+      "samples": 1600
+    },
+    {
+      "epoch": 10,
+      "loss": 0.595602026714219,
+      "exact_string_accuracy": 0.89375,
+      "character_error_rate": 0.01990777190417276,
+      "samples": 1600
+    },
+    {
+      "epoch": 11,
+      "loss": 0.5451383828123411,
+      "exact_string_accuracy": 0.888125,
+      "character_error_rate": 0.022141478369478825,
+      "samples": 1600
+    },
+    {
+      "epoch": 12,
+      "loss": 0.5125093155768182,
+      "exact_string_accuracy": 0.919375,
+      "character_error_rate": 0.014938886373924853,
+      "samples": 1600
+    }
+  ],
+  "held_out_synthetic_mnist_strings": {
+    "exact_string_accuracy": 0.923125,
+    "character_error_rate": 0.014361851332398317,
+    "samples": 3200
+  },
+  "max_length": 10
+}

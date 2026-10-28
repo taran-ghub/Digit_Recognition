@@ -1,0 +1,1 @@
+Digit examples use official MNIST test crops. They are synthetic compositions, not real handwritten numbers. Expected strings are in filenames. Blank and plus are negative examples. These examples do not establish accuracy and should not be used for training or threshold tuning.

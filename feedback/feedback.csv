@@ -1,0 +1,11 @@
+sample_id,created_utc,source,actual_label,format,decision,reading,candidate_reading,sequence_reading,reason,image
+2d1d963b3c554f0fafef4d0a131dc1c5,2026-10-21T08:10:21.736558+00:00,draw,42,General number,rejected,,42,42,At least one component is uncertain or non-digit.,2d1d963b3c554f0fafef4d0a131dc1c5.png
+b4a1d3f99af84dfc9101afadbb18e06f,2026-10-21T08:10:25.728865+00:00,draw,42,General number,rejected,,42,42,At least one component is uncertain or non-digit.,b4a1d3f99af84dfc9101afadbb18e06f.png
+92e68cb09a574452b08892620c762c46,2026-10-21T08:10:28.597885+00:00,draw,42,General number,rejected,,42,42,At least one component is uncertain or non-digit.,92e68cb09a574452b08892620c762c46.png
+954118c2055048a9bfe13ff71a10617d,2026-10-21T08:10:35.484151+00:00,draw,42,General number,rejected,,42,42,At least one component is uncertain or non-digit.,954118c2055048a9bfe13ff71a10617d.png
+23d42874087d47369dabe41874db12b2,2026-10-21T08:10:36.969514+00:00,draw,42,General number,rejected,,42,42,At least one component is uncertain or non-digit.,23d42874087d47369dabe41874db12b2.png
+1f49a1d166154d219578babe53809c2c,2026-10-21T08:10:38.410294+00:00,draw,42,General number,rejected,,42,42,At least one component is uncertain or non-digit.,1f49a1d166154d219578babe53809c2c.png
+7ca18bd8f87340f09466d77d762f42ea,2026-10-21T08:10:45.854318+00:00,draw,42,General number,rejected,,42,42,At least one component is uncertain or non-digit.,7ca18bd8f87340f09466d77d762f42ea.png
+879d221684c84a3bbf4e3a7822820d9c,2026-10-22T05:37:21.314948+00:00,draw,16,General number,rejected,,3,3,At least one component is uncertain or non-digit.,879d221684c84a3bbf4e3a7822820d9c.png
+eb40761c0dda4eeb970320a2da41e169,2026-10-27T08:25:00.761456+00:00,draw,42,General number,accepted,42,42,42,,eb40761c0dda4eeb970320a2da41e169.png
+ad08f2b879c6479fb074b1371ff5921b,2026-10-27T08:25:44.110991+00:00,draw,21,General number,accepted,21,21,21,,ad08f2b879c6479fb074b1371ff5921b.png

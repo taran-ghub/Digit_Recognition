@@ -1,0 +1,31 @@
+SEQUENCE-CONFIRMED RECOVERY HOTFIX
+==================================
+
+What this fixes
+---------------
+The earlier decision rule could reject clear canvas handwriting such as 12 or 42
+when the old single-character validator was overly strict, even though both the
+component pathway and the full-number CRNN agreed.
+
+The new rule keeps strict validation first. It uses a softer recovery condition
+only when ALL of these conditions hold:
+1. The digit classifier is confident.
+2. The digit-vs-letter model still considers every character a digit.
+3. The validator score is above a lower safety floor.
+4. The complete-number CRNN exactly agrees with the component reading.
+
+Installation
+------------
+1. Stop the React server with Ctrl+C.
+2. Copy all contents of this update into:
+   C:\Users\HP-PC\Desktop\digit_recognition
+   and replace files when Windows asks.
+3. Start again:
+
+   conda activate digitlab
+   cd /d C:\Users\HP-PC\Desktop\digit_recognition
+   python server.py
+
+No model retraining is needed. Test 12, 42 and the earlier 3e example after
+restarting. The screen will label a recovered result as "Sequence-confirmed
+reading" so the decision is transparent.
